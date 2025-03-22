@@ -117,7 +117,7 @@ html, body {
 .register{
     display: flex;
     position: relative;
-    top: 39% ;
+    top: 35% ;
     padding: 16px 0 0 0;
     align-items: center;
     justify-content: center;
@@ -219,10 +219,10 @@ html, body {
 }
 .quality{ 
     margin-left: 1.7em;
-    font-size: 15px;
+    font-size: 20px;
     font-weight: 600;
     font-family: "Montserrat", sans-serif;
-    color: #ffffff90;
+    color: #ffffffb3;
 }
 #dscp{
     height: 40%;
@@ -235,7 +235,7 @@ html, body {
 #dscp p{
     font-size: 15px;
     font-family: "Montserrat", sans-serif;
-    color: #ffffff90;
+    color: #ffffffb3;
 }
 #par{
     margin-top: -25px;
@@ -263,4 +263,43 @@ html, body {
 #Premium{
     background: linear-gradient(to bottom right, #7A0C2E, #130320);
     border-color: #7A0C2E;
+}
+.more-reason{
+    position: relative;
+    height: 400px;
+    width: 90%;
+    margin: 80px 0 20px 70px;
+}
+#reasons h1{
+    font-size: 30px;
+    font-family: "Montserrat", sans-serif;
+    color: #ffffff80;
+}
+#details2{
+    height: 270px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 15px;
+    margin: 20px;
+}
+.under-details h3{
+    margin-top: 5%;
+    padding: 2% 5% 0 8%;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: "Montserrat", sans-serif;
+    color: #ffffff;
+}
+.under-details p{
+    font-size: 15px;
+    font-family: "Montserrat", sans-serif;
+    color: #ffffffb3;
+    padding: 0 5% 0 8%;
+}
+#tv,#offline,#everywhere,#kids{
+    height: 85%;
+    border: 1px solid #495057;
+    width: 90%;
+    background-color: #212529; 
+    border-radius: 20px;
 }
