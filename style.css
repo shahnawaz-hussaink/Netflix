@@ -315,6 +315,9 @@ html, body {
     font-family: "Montserrat", sans-serif;
     color: #ffffff;
 }
+.btn img{
+    height: 25px;
+}
 .main-ques{
     position: relative;
     height: 80px;
@@ -400,3 +403,5 @@ html, body {
     font-family: "Netflix Sans", Arial, Helvetica, sans-serif;
     color: #ffffffb3;
 }
+
+/*  Making thing flrcxible */
