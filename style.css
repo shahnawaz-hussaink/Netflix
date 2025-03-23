@@ -660,4 +660,10 @@ html, body {
         margin-left: 3%;
         margin-top: -9%;
     }
+    #english{
+        display: none;
+    }
+    .language button{
+        width: 65px;
+    }
 }
