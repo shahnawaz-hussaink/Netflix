@@ -157,6 +157,7 @@ html, body {
     outline: none;
 }
 
+
 #trendingnow{
     position: relative;
     height: 350px;
@@ -416,7 +417,7 @@ html, body {
         width: 99%;
     }
     #details-plan h1{
-        font-size: 30px;
+        font-size: 20px;
         margin-left: 1em;
     }
     #details {
@@ -483,7 +484,7 @@ html, body {
         width: 100%;
     }
     #reasons h1{
-        font-size: 30px;
+        font-size: 20px;
         margin-left: 1.5em;
     }
     #details2 {
@@ -524,9 +525,7 @@ html, body {
         margin-left: 3.5%;
     }
     #FAQ h1{
-        font-size: 30px;
-        font-family: "Montserrat", sans-serif;
-        color: #ffffff;
+        font-size: 20px;
     }
     .btn img{
         height: 25px;
@@ -580,15 +579,85 @@ html, body {
         font-family: "Netflix Sans", Arial, Helvetica, sans-serif;
         color: #ffffffb3;
     }
+
+
+
+
+
+    .backgroundimg{
+        height: 450px;
+        width: 95%;
+        border-radius: 20px;
+    }
+    #heading1 {
+        font-size: 1em;
+    }
+    #para{
+        top: 30% ;
+        font-size: 1em;
+    }
+    #heading3 {
+        top: 35% ;
+        font-size: 10px;
+        color: white;
+    }
+
+
+    #trendingnow{
+        height: 280px;
+        width: 95%;
+    }
+    #trending h1{
+        font-size: 20px;
+    }
+    .movies{
+        display: flex;
+        gap: 40px;
+        overflow-x: hidden;
+        margin: 5%;
+        
+    }
+    #Nadaaniyan{
+        opacity: 0.4;
+    }
 }
 @media screen and (max-width:600px){
-    
-
-    .language button{
-        height: 32px;
-        width: 65px;
+    #heading1 {
+        font-size: 0.7em;
     }
-    #english{
-        display: none;
+    #para{
+        top: 30% ;
+        font-size: 0.7em;
+    }
+    #heading3 {
+        top: 35% ;
+        font-size: 8px;
+        color: white;
+    }
+    .register{
+        width: 400px;
+        display: block;
+        
+    }
+    .register input{
+        width: 80%;
+        margin-left: -5%;
+    }
+    .register button{
+        width: 80%;
+        margin-left: -8%;
+        margin-top: 1em;
+    } 
+    #trendingnow{
+        height: 300px;
+        width: 95%;
+    }
+    .movies{
+        margin-top: 15%;
+    }
+    #trending h1{
+        font-size: 20px;
+        margin-left: 3%;
+        margin-top: -9%;
     }
 }
