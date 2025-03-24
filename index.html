@@ -12,24 +12,40 @@
         <div class="navbar">
             <div id="img-container">
             </div>
-           <div class="language">
-            <button >
-                <div id="translator">
-                    <img src="Assests/translator.svg" alt="translator">
+            <div class="language">
+                <button id="language-btn">
+                    <div id="translator">
+                        <img src="Assests/translator.svg" alt="translator">
+                    </div>
+                    <div id="english">
+                        <p>English</p>
+                    </div>
+                    <div id="dropdown">
+                        <img src="Assests/dropdown.svg" alt="Dropdown">
+                    </div>
+                </button>
+                <div class="dropdown-menu" id="dropdown-menu">
+                    <p class="dropdown-item" data-lang="English">English</p>
+                    <p class="dropdown-item" data-lang="हिन्दी">हिन्दी</p>
                 </div>
-                <div id="english">
-                    <p>English</p>
-                </div>
-                <div id="dropdown">
-                    <img  src="Assests/dropdown.svg" alt="Dropdown">
-                </div>
-                
-            </button>
-           </div> 
+            </div>
             
-            <button id="signin">
-                <p>Sign In</p>
-            </button>
+            
+            <!-- <div class="dropdown">
+                <button onclick="myFunction()" class="dropbtn">Dropdown</button>
+                <div id="myDropdown" class="dropdown-content">
+                  <a href="#">Link 1</a>
+                  <a href="#">Link 2</a>
+                  <a href="#">Link 3</a>
+                </div>
+              </div> -->
+
+
+              
+        <button id="signin"> 
+            <p>Sign In</p>
+        </button>
+
         </div>
         <div class="backgroundimg">
             
@@ -284,5 +300,6 @@
             </footer>
         </div>
     </main>
+    <script src="script.js"></script>
 </body>
 </html>

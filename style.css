@@ -35,18 +35,18 @@ html, body {
 
 .language {
     justify-self: end;
+    position: relative; 
 }
-
 .language button {
     height: 32px;
     width: 124px;
     display: flex;
     align-items: center;
     background-color: transparent;
-    /* justify-content: space-between; */
     border: 1px solid rgb(232, 227, 227);
     border-radius: 16px;
     padding: 0 10px;
+    cursor: pointer; 
 }
 
 .language img {
@@ -56,7 +56,34 @@ html, body {
 .language p {
     font-size: 16px;
     color: white;
+    margin-left: 5px;
 }
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 40px; 
+    left: 0;
+    width: 124px;
+    background-color: rgba(0, 0, 0, 0.9); 
+    border-radius: 8px;
+    border: 1px solid rgb(232, 227, 227);
+    overflow: hidden;
+    z-index: 10;
+}
+
+.dropdown-item {
+    padding: 8px 10px;
+    text-align: center;
+    font-size: 14px;
+    color: white;
+    cursor: pointer;
+}
+
+.dropdown-item:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
 
 #signin {
     justify-self: end;
@@ -72,6 +99,7 @@ html, body {
     color: black;
     font-weight: bold;
 }
+
 
 .backgroundimg{
     height: 520px;
