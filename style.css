@@ -641,7 +641,7 @@ html, body {
     .movies{
         display: flex;
         gap: 40px;
-        overflow-x: hidden;
+        overflow-x: auto;
         margin: 5%;
         
     }
